@@ -1,0 +1,7 @@
+<h1>Mails</h1>
+
+<table border="3" cellpadding="10">
+<%= @rec.each do |mail| %>
+    <tr><td><%= mail.subject %></td></tr>
+<% end %>
+</ul>
